@@ -1,0 +1,31 @@
+{
+  "name": "node-koa-jade",
+  "version": "0.0.1",
+  "description": "A simple node app which explores node + koa + jade",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony app.js"
+  },
+  "keywords": [
+    "hapi",
+    "nodejs",
+    "jade"
+  ],
+  "engines": {
+    "node": "~0.11.11"
+  },
+  "dependencies": {
+    "swig":"",
+    "co-views": "~0.2.0",
+    "socket.io": "~1.0.6",
+    "hapi": "~6.7.1",
+    "good": "~2.2.3"
+  },
+  "author": "Jaganathan B",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "*"
+  }
+}
